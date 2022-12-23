@@ -16,6 +16,6 @@ class TestNotification(unittest.TestCase):
         # Verify that the response contains the expected message
         self.assertIn('Hello from lambda', resp.text)
 
-# Run the test
+# Run the testcd
 if __name__ == '__main__':
     unittest.main()
